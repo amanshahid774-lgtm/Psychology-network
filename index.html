@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Psychology Network: Where Psychology Connects</title>
+<meta name="description" content="A planned network for psychology students and early-career graduates in Pakistan to find opportunities, research collaborators and learning events. Design preview with demonstration content.">
+<meta name="theme-color" content="#0f2547">
+<meta property="og:title" content="The Psychology Network: Where Psychology Connects">
+<meta property="og:description" content="Opportunities, research collaboration and learning for psychology students in Pakistan. Design preview.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site"><div class="wrap nav">
+  <a class="logo" href="#top"><img src="assets/logo.svg" alt="" width="28" height="28">The Psychology Network</a>
+  <nav aria-label="Main">
+    <ul class="menu" id="menu">
+      <li><a href="#opportunities">Opportunities</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#community">Community</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#join">Join</a></li>
+    </ul>
+  </nav>
+  <div class="nav-actions">
+    <a class="btn ghost" href="#opportunities" id="savedLink" style="color:#fff;border-color:rgba(255,255,255,.35)">Saved (<span id="savedCount">0</span>)</a>
+    <a class="btn join-cta" href="#join">Join the network</a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="menu">Menu</button>
+  </div>
+</div></header>
+
+<main id="main">
+<div class="hero" id="top"><div class="wrap">
+  <div>
+    <h1>Where Psychology Connects</h1>
+    <p>Find internships, research collaborators and learning events in one place, built for psychology students and early-career graduates in Pakistan.</p>
+    <form class="search" role="search" id="heroSearch">
+      <input type="search" id="heroInput" aria-label="Search opportunities" placeholder="Search internships, scholarships, training">
+      <button class="btn" type="submit">Search</button>
+    </form>
+  </div>
+  <img src="assets/network.svg" alt="Network diagram linking you with research, careers, events and peers" width="420" height="340">
+</div></div>
+
+<section id="opportunities"><div class="wrap">
+  <h2>Opportunities</h2>
+  <p class="sub">Search by keyword, then narrow by type, field, location and pay.</p>
+  <p class="demo-note">Demonstration content: every listing below is invented and has no real application link.</p>
+  <div class="filters" role="group" aria-label="Filter opportunities">
+    <input type="search" id="search" aria-label="Search opportunities" placeholder="Search title, organization or keyword">
+    <select id="fType" aria-label="Type"><option value="">All types</option></select>
+    <select id="fField" aria-label="Field"><option value="">All fields</option></select>
+    <select id="fCity" aria-label="Location"><option value="">All locations</option></select>
+    <select id="fPay" aria-label="Pay"><option value="">Paid or unpaid</option></select>
+  </div>
+  <div class="bar">
+    <label><input type="checkbox" id="savedOnly"> Show saved only</label>
+    <span id="count" role="status" aria-live="polite"></span>
+    <button class="linkbtn" id="clear" type="button">Clear filters</button>
+  </div>
+  <div class="grid" id="opps"></div>
+</div></section>
+
+<section id="research" class="alt"><div class="wrap">
+  <h2>Research Exchange</h2>
+  <p class="sub">A preview of how project and idea listings would look.</p>
+  <p class="demo-note">Demonstration content: these projects are invented. Collaboration requests are not open yet.</p>
+  <div class="grid" id="researchGrid"></div>
+</div></section>
+
+<section id="events"><div class="wrap">
+  <h2>Events and learning</h2>
+  <p class="sub">Workshops, seminars and guides. In the full platform, registration would happen on the organizer's own page.</p>
+  <p class="demo-note">Demonstration content: these events are invented and have no dates.</p>
+  <div class="grid" id="eventGrid"></div>
+</div></section>
+
+<section id="community" class="alt"><div class="wrap two">
+  <div>
+    <h2>Community</h2>
+    <p class="sub">Educational discussion by topic. The full community would not allow diagnosing or sharing patient information.</p>
+    <p class="demo-note">Sample thread titles only. Discussions are not open yet.</p>
+    <div class="chips" id="chips" role="group" aria-label="Discussion categories"></div>
+  </div>
+  <div id="threads" aria-live="polite"></div>
+</div></section>
+
+<section id="about"><div class="wrap">
+  <h2>What makes this different</h2>
+  <p class="sub">The goal is quality of connections and clear information, not number of features.</p>
+  <div class="grid">
+    <div class="card"><h3>Structured academic identity</h3><p>Education, skills, interests and research contributions in one searchable profile.</p></div>
+    <div class="card"><h3>Research collaboration</h3><p>Students from different universities finding collaborators and developing ideas into projects.</p></div>
+    <div class="card"><h3>Opportunity transparency</h3><p>Paid, unpaid, funded, remote or onsite, with eligibility and deadlines shown clearly.</p></div>
+    <div class="card"><h3>Study to career</h3><p>Support for moving from undergraduate study to research, internships and further education.</p></div>
+  </div>
+  <p class="sub" style="margin-top:20px">The Psychology Network is planned as an academic and professional network. It does not offer clinical consultations, diagnosis or treatment.</p>
+</div></section>
+
+<section id="join"><div class="wrap"><div class="join">
+  <div>
+    <h2>Join the network</h2>
+    <p>Registration is not open yet. This site is a design preview of a platform that is still being built.</p>
+    <div id="contact" style="margin-top:16px"></div>
+  </div>
+  <div class="box">
+    <b>Planned for launch</b>
+    <ul><li>Free accounts for students and graduates</li><li>Profiles with education, skills and interests</li><li>Checked opportunity listings</li><li>Research collaboration requests</li></ul>
+  </div>
+</div></div></section>
+</main>
+
+<footer class="site"><div class="wrap">© 2026 The Psychology Network. Design preview with demonstration content. No accounts, logins or submissions are available.</div></footer>
+
+<dialog id="dlg" aria-labelledby="dlgTitle"><div class="dlg" id="dlgBody"></div></dialog>
+
+<noscript><div class="wrap" style="padding:20px">This site needs JavaScript for search, filters and saved items.</div></noscript>
+<script src="js/config.js"></script>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
